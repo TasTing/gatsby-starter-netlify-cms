@@ -4,7 +4,7 @@ title: Hello World
 date: 2020-10-09T07:23:43.071Z
 description: This is my first post on netlify!
 featuredpost: true
-featuredimage: https://res.cloudinary.com/dnrvhlddk/image/upload/c_limit,q_80,w_2000/v1602299336/samples/sheep.jpg
+featuredimage: https://res.cloudinary.com/dnrvhlddk/image/upload/c_limit,q_80,w_2000/v1602299436/samples/cloudinary-group.jpg
 tags:
   - game
 ---
