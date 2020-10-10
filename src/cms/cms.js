@@ -17,15 +17,6 @@ CMS.init({
             config: {
                 cloud_name: 'dnrvhlddk',
                 api_key: '745536962636175',
-                default_transformations: [
-                    [
-                        {
-                            width: 2000,
-                            quality: 80,
-                            crop: 'limit',
-                        },
-                    ],
-                ],
             },
         },
         media_folder: '/static/uploads',
