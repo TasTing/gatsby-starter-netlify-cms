@@ -19,11 +19,6 @@ CMS.init({
                 api_key: '745536962636175',
             },
         },
-        media_folder: '/static/uploads',
-        public_folder: '/uploads',
-        collections: [
-
-        ]
     },
 });
 
