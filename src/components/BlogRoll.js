@@ -19,7 +19,7 @@ class BlogRoll extends React.Component {
                 }`}
               >
                 <header>
-                  {
+                  {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       {post.frontmatter.featuredimage}
                       <PreviewCompatibleImage
@@ -29,7 +29,7 @@ class BlogRoll extends React.Component {
                         }}
                       />
                     </div>
-                  }
+                  ) : null}
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
