@@ -8,12 +8,12 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
 
   if (!!image && !!image.childImageSharp) {
     return (
-      <div>{image.childImageSharp.fluid}<Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} /></div>
+      <div>childsharp fluid<Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} /></div>
     )
   }
 
   if (!!childImageSharp) {
-    return <div>{childImageSharp.fluid}<Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} /></div>
+    return <div>fluid<Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} /></div>
   }
 
   if (!!image && typeof image === 'string')
